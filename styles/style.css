@@ -36,10 +36,6 @@ a {
     padding-left: 0;
 }
 
-.header__link {
-
-}
-
 .header__link_active {
     text-decoration: none;
 }
@@ -49,10 +45,6 @@ a {
     width: 148px;
     height: 105px;
     padding: 0 5px;
-}
-
-.header__logo-image {
-
 }
 
 .address {
@@ -66,10 +58,6 @@ a {
 
 .header__address {
     max-width: 240px;
-}
-
-.main {
-
 }
 
 .cover {
@@ -236,10 +224,6 @@ a {
     grid-template-columns: 334px 1fr;
 }
 
-.about-column {
-
-}
-
 .about__logo {
     width: 240px;
     height: 240px;
@@ -293,16 +277,8 @@ a {
     text-align: center;
 }
 
-.footer__menu-list-item {
-
-}
-
 .footer__menu-link_active {
     text-decoration: none;
-}
-
-.footer__menu-link {
-
 }
 
 .footer__social-list {
@@ -311,10 +287,6 @@ a {
     flex-direction: row;
     list-style: none;
     gap: 48px;
-}
-
-.footer__social-list-item {
-
 }
 
 .footer__social-icon {
