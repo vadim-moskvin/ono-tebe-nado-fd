@@ -39,7 +39,7 @@ a {
 
 .address {
     font-style: normal;
-    line-height: 24.3px;
+    line-height: 1.35;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -121,9 +121,11 @@ a {
 
 .bet-button {
     padding: 12px 32px 11px 31px;
+    cursor: pointer;
     text-transform: uppercase;
     color: rgb(255 255 255);
     border-width: 1px;
+    border-style: solid;
     border-color: rgb(255 255 255);
     background: transparent;
 }
@@ -237,7 +239,6 @@ a {
 }
 
 .about__text {
-    line-height: 24px;
     display: flex;
     flex-direction: column;
     margin: 100px 0 0;
@@ -247,9 +248,8 @@ a {
 .footer {
     font-size: 18px;
     display: grid;
-    height: 180px;
     margin: 180px 0 0;
-    padding: 0 50px;
+    padding: 0 50px 82px;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
